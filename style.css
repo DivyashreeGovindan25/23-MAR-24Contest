@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 14vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#navcard{
+    background-color: #000000;
+    width: 100vw;
+    height: 100%;
+    font-family: "Ruda", sans-serif;
+}
+#resName{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 700;
+    position: absolute;
+    top: 34%;
+    left: 2%;
+    display: inline;
+}
+#navcard > p{
+    display: inline;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    position: absolute;
+    top: 36%;
+}
+#about{
+    left: 30%;
+}
+#menu{
+    left: 39%;
+}
+#blogs{
+    left: 45%;
+}
+#testimony{
+    left: 51%;
+}
+#find{
+    left: 60%
+}
+#team{
+    left: 68%;
+}
+#navcard > img{
+    position: absolute;
+    width: 62.33px;
+    height: 50.12px;
+    top: 29%;
+}
+#insta{
+    left: 90%;
+}
+#facebook{
+    left: 93%;
+}
+#watsapp{
+    left: 96%;
+}
+#main-content{
+    width: 100vw;
+    height: 100vh;
+}
+#background{
+    background-image: url("./mainContentBackground.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#card-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+#highLight{
+    width: 40%;
+    height: 40%;
+    color: #FFFFFF;
+    font-family: "Quattrocento", serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 108px;
+    position: relative;
+    z-index: 1;
+    left: 70px;
+    top: 70px;
+}
+#underline1{
+    width: 400px;
+    height: 10px;
+    background-color: #F24C4C;
+    position: relative;
+    z-index: 1;
+    left: 5%;
+    top: 6%;
+}
+#content1{
+    width: 400px;
+    height: 10px;
+    position: relative;
+    z-index: 1;
+    left: 5%;
+    top: 10%;
+    font-family: "Ruda", sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+}
+/* Next card */
+#sec-content{
+    background-color: #000000;
+    width: 100vw;
+    height: 330vh;
+}
+#card-one{
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    color: #FFFFFF;
+}
+#heading-wrapper1{
+    position: absolute;
+    z-index: 1;
+    left: 41.5%;
+    width: 250px;
+}
+
+#heading-wrapper1 > h2{
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+#underline2{
+    height: 5px;
+    background-color: #F24C4C;
+} 
+#card-one-content-box{
+    position: absolute;
+    z-index: 1;
+    left: 10vw;
+    top: 15vh;
+    position: relative;
+}
+#underline3{
+    width: 400px;
+    height: 2px;
+    background-color: #F24C4C;
+}
+#card-one-content-box > p{
+    width: 30%;
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: "Ruda", sans-serif;
+    display: inline-block;
+}
+#card-one-content-box > img{
+    width: 330px;
+    height: 270px;
+    position: relative;
+    left: 20%;
+}
+#card-two{
+    position: relative;
+    z-index: 1;
+    top: 20%;
+    color: #FFFFFF;
+}
+#heading-wrapper2{
+    position: absolute;
+    z-index: 1;
+    left: 41.5%;
+    width: 250px;
+}
+
+#heading-wrapper2 > h2{
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+#underline4{
+    height: 5px;
+    background-color: #F24C4C;
+} 
+#card-two-content-box{
+    position: absolute;
+    z-index: 1;
+    left: 10vw;
+    top: 15vh;
+    position: relative;
+}
+#card-two-content-box > p{
+    width: 70%;
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: "Ruda", sans-serif;
+    display: inline-block;
+}
+#menus{
+    width: 70%;
+    position: relative;
+    top: 10vh;
+    /* background-color: #F24C4C; */
+}
+.menu-items{
+    display: inline-block;
+    width: 45%;
+    height: 200px;
+    /* background-color: red; */
+    position: relative;
+}
+#right-menu{
+    position: absolute;
+    right: 0%;
+}
+.menu-items > img{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+.menu-items > h3{
+    display: inline-block;
+    position: absolute;
+    right: 33%;
+    top: 10%;
+    font-family: "Ruda", sans-serif;
+    line-height: 40px;
+    color: #F2C94C;
+}
+.menu-items > p{
+    display: inline-block;
+    position: absolute;
+    right: 6%;
+    top: 30%;
+    width: 50%;
+    text-align: justify;
+    font-family: "Ruda", sans-serif;
+    line-height: 40px;
+}
+.right-menu{
+    position: absolute;
+    right: 0px;
+}
+#card-three{
+    position: relative;
+    z-index: 1;
+    left: 10vw;
+    top: 35vh;
+}
+#heading-wrapper3{
+    position: absolute;
+    z-index: 1;
+    left: 33%;
+    width: 250px;
+}
+#underline5{
+    height: 5px;
+    background-color: #F24C4C;
+} 
+#heading-wrapper3 > h2{
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+#card-three-content-box{
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+#card-three-content-box > img{
+    width: 50%;
+    height: 50%;
+
+}
+footer{
+    width: 100vw;
+    background-color: #000000;
+}
+footer > a{
+    color: #FFFFFF;
+    position: relative;
+    left: 78%;
+    font-size: 40px;
+    text-decoration: none;
+}
